@@ -1,0 +1,223 @@
+/* rgb(82, 94, 117); */
+
+
+/* DFD1B6 */
+
+
+/* Global */
+
+:root {
+    --gray: #525e75;
+    --gold: #e7b147;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Main Content */
+
+main {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../src/college/left-garden.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 90vh;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    user-select: none;
+}
+
+main .main-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-title span {
+    display: block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    line-height: 1;
+}
+
+main .main-title .vp-text {
+    font-size: 5rem;
+}
+
+
+/* Courses */
+
+.courses-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0 0 0;
+}
+
+.courses-title span {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.courses-title .line {
+    height: 3px;
+    width: 100px;
+    background-color: var(--gray);
+}
+
+.courses {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-courses {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.courses-card {
+    width: 25%;
+    padding: 20px;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 10px 11px 20px 6px rgba(0, 0, 0, 0.21);
+    border-radius: 5px;
+}
+
+.courses-card img {
+    height: 150px;
+    width: 150px;
+    margin: 0 0 30px 0;
+}
+
+.courses-card .courses-card-info h3 {
+    color: var(--gray);
+    font-weight: bold;
+}
+
+.courses-card .courses-card-info p {
+    font-size: 0.8rem;
+}
+
+.courses-btn-container {
+    text-align: center;
+}
+
+.courses-btn {
+    margin: 30px 0;
+    border: none;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 1px solid var(--gray);
+    box-sizing: border-box;
+    transition: 0.3s all;
+    border-radius: 3px;
+}
+
+.courses-btn:hover {
+    background-color: var(--gray);
+    color: white;
+    cursor: pointer;
+}
+
+
+/* Principal Comment */
+
+.comment {
+    background-color: #525e7522;
+    height: 350px;
+    text-align: center;
+}
+
+.comment h1 {
+    margin: auto;
+    text-align: center;
+    color: #525e75;
+    font-weight: 100;
+    font-family: "Times New Roman", Times, serif;
+    width: 570px;
+    font-size: 35px;
+}
+
+.comment img {
+    margin: 15px;
+}
+
+.comment .comment-img {
+    border-radius: 150px;
+    margin: 15px;
+}
+
+.comment p {
+    color: var(--gray);
+    font-size: 15px;
+    font-weight: 500px;
+}
+
+
+/* Mission & Vision */
+
+.Vision>div,
+.Mission>div {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Vision img {
+    margin: 30px;
+    border-radius: 15px 50px;
+    margin-left: 100px;
+}
+
+.Vision h1,
+.Mission h1 {
+    margin: 30px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    width: 400px;
+    color: var(--gray);
+    font-size: 35px;
+}
+
+.Vision p,
+.Mission p {
+    margin: 30px;
+    width: 400px;
+}
+
+.Mission {
+    background-color: #525e7522;
+    width: 100%;
+}
+
+.Mission img {
+    margin: 30px;
+    border-radius: 15px 50px 30px 5px;
+    margin-right: 100px;
+}
+
+.Mission h1 {
+    margin-top: 50px;
+}
+
+.mission-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
